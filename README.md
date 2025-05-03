@@ -39,8 +39,7 @@ This lab demonstrates the basics of **AWS Identity and Access Management (IAM)**
 - ✅ Create an IAM user
 - ✅ Add the user to the group
 
-![alt text](image.png)
----
+![alt text](projects/iam/image.png)
 
 ## 📦 Requirements
 
