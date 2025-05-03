@@ -29,7 +29,7 @@ his Python script scans all S3 buckets in an AWS account and lists those that:
  - Uses Boto3 to interact with AWS S3.
 
 
- # II - AWS Identity and Access Management (IAM)
+ # III - AWS Identity and Access Management (IAM)
  # 🛡️ AWS IAM Lab with Python
 
 This lab demonstrates the basics of **AWS Identity and Access Management (IAM)** using Python and Boto3. It walks you through how to:
@@ -53,3 +53,21 @@ Install Boto3 if you haven't already:
 ```
 pip install boto3
 ```
+# IV - AWS VPC Setup with Boto3
+This project automates the setup of a Virtual Private Cloud (VPC) environment in AWS using Python and Boto3. It includes:
+- Creation of a VPC, public and private subnets
+- Internet and NAT Gateway configuration
+- Route tables and security groups
+- EC2 instance provisioning in both subnets
+## ✅ Result
+- Public EC2: Internet accessible
+- Private EC2: Internet access via NAT Gateway
+- SSH verified on Public EC2
+## 🧹 Cleanup
+To avoid ongoing charges, make sure to delete:
+- EC2 instances
+- NAT Gateway
+- EIP
+- Subnets
+- VPC
+
