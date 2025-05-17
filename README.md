@@ -70,3 +70,22 @@ To avoid ongoing charges, make sure to delete:
 - Subnets
 - VPC
 
+# AWS EC2 Web Server Deployment with Python and Boto3
+
+This project automates the provisioning of an AWS EC2 instance using Python and Boto3. It sets up a virtual private cloud (VPC), a public subnet, security groups, and launches an EC2 instance configured with an Apache web server and a simple HTML web page.
+
+## 📦 Features
+
+- Create a custom VPC and public subnet
+- Set up an internet gateway and routing
+- Configure a security group for SSH (port 22) and HTTP (port 80)
+- Launch an Amazon Linux 2 EC2 instance
+- Automatically install Apache HTTP Server
+- Serve a basic "Hello from EC2" webpage
+
+## 🛠 Requirements
+
+- Python 3.7+
+- Boto3
+- AWS CLI configured with sufficient permissions
+
