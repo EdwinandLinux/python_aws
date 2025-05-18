@@ -89,3 +89,27 @@ This project automates the provisioning of an AWS EC2 instance using Python and 
 - Boto3
 - AWS CLI configured with sufficient permissions
 
+# V- Configured Layered of Security for VPC
+
+This project demonstrates how to create a secure and structured AWS Virtual Private Cloud (VPC) using Python and Boto3. It implements key networking components such as subnets, route tables, internet gateways, security groups, network ACLs, and EC2 instances to reflect a layered security architecture.
+
+## 🛠️ Features
+
+- ✅ Create a custom VPC with DNS support
+- ✅ Attach an Internet Gateway
+- ✅ Set up a public and a private subnet
+- ✅ Configure route tables for public and private routing
+- ✅ Create and associate Security Groups to control EC2 access
+- ✅ Create and associate a Network ACL for subnet-level control
+- ✅ Launch two EC2 instances (1 public, 1 private)
+- ✅ Public EC2 can be accessed via SSH; private EC2 can be reached from the public instance
+
+## 🖥️ Technologies Used
+
+- Python 3.x
+- Boto3 (AWS SDK for Python)
+- AWS EC2, VPC, Security Groups, Route Tables, Network ACLs
+
+
+
+
