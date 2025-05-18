@@ -30,9 +30,9 @@ his Python script scans all S3 buckets in an AWS account and lists those that:
 
 
  # III - AWS Identity and Access Management (IAM)
- # 🛡️ AWS IAM Lab with Python
+ 
 
-This lab demonstrates the basics of **AWS Identity and Access Management (IAM)** using Python and Boto3. It walks you through how to:
+This project demonstrates the basics of **AWS Identity and Access Management (IAM)** using Python and Boto3. It walks you through how to:
 
 - ✅ Create an IAM group
 - ✅ Attach a policy to the group
@@ -70,7 +70,7 @@ To avoid ongoing charges, make sure to delete:
 - Subnets
 - VPC
 
-# AWS EC2 Web Server Deployment with Python and Boto3
+# V- AWS EC2 Web Server Deployment with Python and Boto3
 
 This project automates the provisioning of an AWS EC2 instance using Python and Boto3. It sets up a virtual private cloud (VPC), a public subnet, security groups, and launches an EC2 instance configured with an Apache web server and a simple HTML web page.
 
