@@ -110,6 +110,20 @@ This project demonstrates how to create a secure and structured AWS Virtual Priv
 - Boto3 (AWS SDK for Python)
 - AWS EC2, VPC, Security Groups, Route Tables, Network ACLs
 
+# VII - AWS Resource Creation with Boto3
+
+This project demonstrates how to create fundamental AWS resources using the Boto3 library for Python. Specifically, it creates:
+
+*   A CloudWatch Log Group
+*   A Virtual Private Cloud (VPC)
+*   VPC Flow Logs
+
+## Prerequisites
+
+*   Python 3.6 or later
+*   Boto3 library installed (`pip install boto3`)
+*   Configured AWS credentials (e.g., using `aws configure`)
+*   Basic understanding of AWS VPC and CloudWatch Logs
 
 
 
